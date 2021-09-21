@@ -89,13 +89,13 @@
 				<section id="experienciaProfesional">
 					<h2>Experiencia profesional</h2>
 					<ul>
-						<li><?php echo $de['descripcion'] ?></li>
+						<li><?php echo $de['descripcion']; ?></li>
 					</ul>
 				</section>
 				<section id="referencias">
 					<h2>Referencias personales</h2>
 					<ul>
-						<li><?php echo $dr['descripcion'] ?></li>
+						<li><?php echo $dr['descripcion']; ?></li>
 					</ul>
 				</section>
 			</div>
