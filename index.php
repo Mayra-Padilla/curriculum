@@ -11,7 +11,7 @@
 </head>
 <body>
 <?php
-	$conexion = new mysqli("localhost","user","imposible123","curriculum");
+	$conexion = new mysqli("localhost","mayraDB","1009","curriculum");
 	$contactoSQL="SELECT * FROM contacto";
 	$habilidadesSQL = "SELECT * FROM habilidades";
 	$idiomasSQL = "SELECT * FROM idiomas";
